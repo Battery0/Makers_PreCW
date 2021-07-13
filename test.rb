@@ -8,5 +8,19 @@ def input_to_index(input)
   p input.to_i - 1
 end
 
+#turn
 
-turn
+
+
+
+def name
+  "dave"
+end
+
+def hello
+  puts "hello #{name}"
+  puts "hello #{name}"
+  puts "hello #{name}"
+end
+
+hello
