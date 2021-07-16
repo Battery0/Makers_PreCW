@@ -23,4 +23,29 @@ def hello
   puts "hello #{name}"
 end
 
-hello
+#hello
+
+
+
+
+string = "i am a string"
+
+#p string[5...10]
+#p string[5, 10]
+
+
+
+
+
+
+#ints are 'truthy' so this will puts 7
+if 7
+  puts 7
+end
+#nil is falsey, so this won't puts "nil"
+if nil
+  puts "nil"
+end
+
+
+
